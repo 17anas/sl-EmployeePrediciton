@@ -1,7 +1,4 @@
 # 📦 Machine Learning App 
-```
-⬆️ (Replace above with your app's name)
-```
 
 Employee Prediction App to Stay or Leave (Liquidation)
 
