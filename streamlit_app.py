@@ -23,7 +23,7 @@ with st.expander('X/y'):
   y_raw
 
 with st.expander('Data Visualization'):
-  st.plotly_chart(data=df, x='Age',y="ExperienceInCurrentDomain",color='LeaveOrNot')
+  st.altair_chart(data=df, x='Age',y="ExperienceInCurrentDomain",color='LeaveOrNot')
 
  
 #Input Features
