@@ -40,7 +40,7 @@ with st.sidebar:
   #create DataFrame for the Input Features
   data = {'City':City,
           'Gender': Gender,
-          'JoiningYear': JoiningYear,
+          #'JoiningYear': JoiningYear,
           'PaymentTier': PaymentTier,
           'Age': Age,
           'ExperienceInCurrentDomain': ExperienceInCurrentDomain
