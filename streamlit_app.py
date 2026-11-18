@@ -31,7 +31,7 @@ with st.sidebar:
   st.header("Input Features")
   City = st.selectbox(("City"),('Bangalore', 'Pune', 'New Delhi'))
   Gender = st.selectbox(("Gender"),("Male","Female"))
-  #JoiningYear = st.slider(("JoiningYear"),2017, 2013, 2014, 2016, 2015, 2012, 2018)
+  JoiningYear = st.slider(("JoiningYear"),2012,2018)
   PaymentTier = st.slider(("PaymentTier"),3, 1, 2)
   #Age = st.slider("Age")
   #ExperienceInCurrentDomain = st.slider(("ExperienceInCurrentDomain"),0, 3, 2, 5, 1, 4, 7, 6)
