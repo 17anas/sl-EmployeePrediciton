@@ -34,7 +34,7 @@ with st.sidebar:
   JoiningYear = st.slider(("JoiningYear"),2012,2018)
   PaymentTier = st.slider(("PaymentTier"),3, 1, 2)
   Age = st.slider(("Age"),0,130,25)
-  ExperienceInCurrentDomain = st.slider(("ExperienceInCurrentDomain"),0, 3, 2, 5, 1, 4, 7, 6)
+  ExperienceInCurrentDomain = st.slider(("ExperienceInCurrentDomain"),0,6)
 
 
   #create DataFrame for the Input Features
