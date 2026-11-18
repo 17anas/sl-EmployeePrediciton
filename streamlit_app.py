@@ -38,13 +38,13 @@ with st.sidebar:
 
 
   #create DataFrame for the Input Features
- # data = {'City':City,
-          #'Gender': Gender,
-          #'JoiningYear': JoiningYear,
-          #'PaymentTier': PaymentTier,
-          #'Age': Age,
-          #'ExperienceInCurrentDomain': ExperienceInCurrentDomain
-           #}
+  data = {'City':City,
+          'Gender': Gender,
+          'JoiningYear': JoiningYear,
+          'PaymentTier': PaymentTier,
+          'Age': Age,
+          'ExperienceInCurrentDomain': ExperienceInCurrentDomain
+           }
   input_df = pd.DataFrame(df, index = [0])
   input_penguins = pd.concat([input_df,X_raw],axis = 0)
 
