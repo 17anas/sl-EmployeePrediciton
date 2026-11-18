@@ -23,7 +23,7 @@ with st.expander('X/y'):
   y_raw
 
 with st.expander('Data Visualization'):
-  st.altair_chart(data=df, x='Age',y="ExperienceInCurrentDomain",color='LeaveOrNot')
+  st.area_chart(data=df, x='Age',y="ExperienceInCurrentDomain",color='LeaveOrNot')
 
  
 #Input Features
