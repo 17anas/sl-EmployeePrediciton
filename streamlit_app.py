@@ -23,7 +23,7 @@ with st.expander('X/y'):
   y_raw
 
 with st.expander('Data Visualization'):
-  st.line_chart(data=df, y='PaymentTier',x='Age')
+  st.bar_chart(data=df, y='PaymentTier',x='Age')
 
  
 #Input Features
