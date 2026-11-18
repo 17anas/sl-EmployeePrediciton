@@ -45,7 +45,7 @@ with st.sidebar:
           'Age': Age,
           'ExperienceInCurrentDomain': ExperienceInCurrentDomain
            }
-  input_df = pd.DataFrame(df, index = [0])
+  input_df = pd.DataFrame(data, index = [0])
   input_penguins = pd.concat([input_df,X_raw],axis = 0)
 
   #Data preparation
@@ -93,7 +93,7 @@ df_prediction_proba.columns = ["Leave","Stay"]
 
 # Display predicted species
 
-st.subheader("**Predicted Species**")
+st.subheader("**Predicted Values**")
 st.dataframe(df_prediction_proba,
              column_config={
                'Leave': st.column_config.ProgressColumn(
