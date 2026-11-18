@@ -23,7 +23,7 @@ with st.expander('X/y'):
   y_raw
 
 with st.expander('Data Visualization'):
-  st.scatter_chart(data=df, y='LeaveOrNot',x='City')
+  st.scatter_chart(data=df, x='LeaveOrNot',y='City')
 
  
 #Input Features
