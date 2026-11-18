@@ -23,7 +23,7 @@ with st.expander('X/y'):
   y_raw
 
 with st.expander('Data Visualization'):
-  st.scatter_chart(data=df, x='PaymentTier',y='Age',color = 'LeaveOrNot')
+  st.bar_chart(data=df, x='PaymentTier',y='Age')
 
  
 #Input Features
